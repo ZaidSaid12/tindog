@@ -1,0 +1,171 @@
+#title{
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 5.7rem;
+}
+
+body{
+  font-family: 'Montserrat';
+}
+.header{
+  font-family: 'Montserrat-Black';
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+ .apple-icon{
+   padding-right: 5px;
+ }
+
+ .google-icon{
+   padding-right: 5px;
+ }
+ .download-btns{
+   margin: 10% 3% 3% 0;
+ }
+ .download-btns:active{
+   position: relative;
+   top: 3px;
+ }
+/* navigation bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem ;
+}
+.nav-item{
+  padding-right: 18px;
+}
+.nav-link{
+  font-size: 1.25rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10%;
+
+
+}
+ /* features */
+ #features{
+text-align: center;
+/* margin: 5rem auto 5rem auto; */
+padding: 10%;
+position: relative;
+z-index: 1;
+background-color: white;
+ }
+ .feature-header{
+   font-family: "Montserrat-Bold";
+   font-weight: 900;
+   font-size: 1.5rem;
+ }
+.feature-paragraph{
+  color: #8f8f8f;
+}
+.feature-fav{
+margin-bottom: 1rem;
+  color: #ef8172;
+}
+.feature-fav:hover{
+  color: #ff4c68;
+}
+/* testimonial section */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+.testimonial-header{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 10px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-card{
+  padding: 3% 2%;
+
+}
+.button-49{
+  background-color: #ef8172;
+  color: white;
+
+}
+.button-99{
+  background-color: #ef8172;
+  color: white;
+}
+.button-free{
+  border-color: #ef8172;
+
+}
+.button-free:hover{
+  background-color: #ef8172;
+  color: white;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 10% 1%;
+}
+
+.cta-header{
+  color: white;
+  font-family: "Montserrat-Black";
+  font-size: 5rem;
+}
+
+#footer{
+  text-align: center;
+  padding: 2% 5% 0;
+}
+.fav-footer{
+  padding: 1%;
+}
+@media (max-width: 990px) {
+  .title-img{
+    position: static;
+    transform:rotate(0)
+  }
+  #title{
+    text-align: center;
+  }
+}
